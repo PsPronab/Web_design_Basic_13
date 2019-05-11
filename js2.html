@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     
+        <button id ="btn" onclick="change()">change</button>
+        <button id ="btn" onclick="back()">back</button>
+        <div id="abc"style=" height: 700px; width: 700px; background: red ;">
+            This is my div
+        </div>
+
+        <script>
+                
+     
+                function change()
+                {
+                    //  document.getElementById("abc").style.height="90px";
+                     document.getElementById("abc").style="background:black ;height:500px; width:500px; color:white;";
+                }
+
+                function back()
+                {
+                    
+                     document.getElementById("abc").style=" height:700px; width:700px; background: red ;";
+                }
+                
+        </script>
+</body>
+</html>
